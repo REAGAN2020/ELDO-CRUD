@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wpkey28tanvra7&zm+87@@l@sihd(g(_*5m)t-!&$f7hg+*0%6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOST = ['*']
+ALLOWED_HOST = ['web-production-e753.up.railway.app']
 
 
 
